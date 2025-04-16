@@ -162,5 +162,9 @@ h2 {
 }
 
 .img-inicio{
-    width: 5% 
+    position:absolute;
+    top: -2vw;
+    right:6vw;
+    width: 30vw;
+    height: 30vw;
 }
