@@ -163,8 +163,8 @@ h2 {
 
 .img-inicio{
     position:absolute;
-    top: 2vw;
-    right:6vw;
-    width: 25vw;
+    top: -2vw;
+    right:7vw;
+    width: 30vw;
     height: 30vw;
 }
