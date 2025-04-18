@@ -163,7 +163,7 @@ h2 {
 
 .img-inicio { 
     position: absolute;
-    top: 4vw;  /* aumentei o top pra empurrar a imagem mais pra baixo */
+    top: 10vw;  /* aumentei o top pra empurrar a imagem mais pra baixo */
     right: 7vw;
     width: 30vw;
     height: 35vw;
