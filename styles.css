@@ -161,10 +161,10 @@ h2 {
     display: none;
 }
 
-.img-inicio{
-    position:absolute;
-    top: -1vw;
-    right:7vw;
+.img-inicio { 
+    position: absolute;
+    top: 3vw;  /* aumentei o top pra empurrar a imagem mais pra baixo */
+    right: 7vw;
     width: 30vw;
     height: 35vw;
 }
