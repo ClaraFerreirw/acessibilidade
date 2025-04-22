@@ -72,13 +72,8 @@ section {
 
 
 #tropicalia {
-    position: relative;
-    padding-top: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     background: url('img/c795e3c176d6fe6245676a6746e45e1a-removebg-preview.png') top right no-repeat,
     background-size: 180px 180px;
-    /* Ajuste o tamanho conforme necessário */
 }
 
 #tropicalia .container {
