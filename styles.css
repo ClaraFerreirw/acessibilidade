@@ -72,8 +72,8 @@ section {
 
 
 #tropicalia {
-    background: url('img/c795e3c176d6fe6245676a6746e45e1a-removebg-preview.png') top right no-repeat,
-    background-size: 180px;
+    background: url('img/c795e3c176d6fe6245676a6746e45e1a-removebg-preview.png') top right no-repeat;
+    background-size: 180px 180px;
 }
 
 #tropicalia .container {
