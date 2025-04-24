@@ -160,14 +160,6 @@ h2 {
     display: none;
 }
 
-.img-inicio { 
-    position: absolute;
-    top: 100px;  /* aumentei o top pra empurrar a imagem mais pra baixo */
-    right: 7vw;
-    width: 30vw;
-    height: 35vw;
-}
-
 /* ALTO CONTRASTE */
 .alto-contraste header,
 .alto-contraste footer,
