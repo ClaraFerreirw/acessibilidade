@@ -205,3 +205,7 @@ h2 {
 .alto-contraste .fundo-galeria {
     background: none;
 }
+
+.btn{
+    background-color: var(--roxo-claro);
+}
