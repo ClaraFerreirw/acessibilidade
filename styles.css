@@ -167,40 +167,86 @@ h2 {
     width: 30vw;
     height: 35vw;
 }
-.alto-contraste{
-    background-color: var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
-}
+
+/* ALTO CONTRASTE */
 .alto-contraste header,
 .alto-contraste footer,
-.alto-contraste .formulario{
+.alto-contraste .formulario {
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
 
-
-.alto-contraste .nav-link{
+.alto-contraste .nav-link {
     color: var(--alto-contraste-link);
 }
 
-
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
-.alto-contraste .btn-primary{
+.alto-contraste .btn-primary {
     background-color: var(--alto-contraste-link);
-    color: var(--alto-contraste-fundo)
-}
-.alto-contraste #tropicalia {
-    background: none;
+    color: var(--alto-contraste-fundo);
 }
 
+.alto-contraste #tropicalia,
+.alto-contraste .fundo-galeria {
+    background: none;
+}
 
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
 }
 
-
-.alto-contraste .fundo-galeria {
-    background: none;
+/* Modo Alto Contraste - aplica preto e branco em tudo */
+.alto-contraste,
+.alto-contraste body,
+.alto-contraste main,
+.alto-contraste section,
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste nav,
+.alto-contraste .formulario,
+.alto-contraste .fundo-galeria,
+.alto-contraste .inicio-fundo {
+    background-color: var(--alto-contraste-fundo) !important;
+    color: var(--alto-contraste-texto) !important;
 }
 
+.alto-contraste h1,
+.alto-contraste h2,
+.alto-contraste h3,
+.alto-contraste p,
+.alto-contraste a,
+.alto-contraste span,
+.alto-contraste li,
+.alto-contraste label,
+.alto-contraste input,
+.alto-contraste textarea {
+    color: var(--alto-contraste-texto) !important;
+}
+
+.alto-contraste .btn,
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button {
+    background-color: var(--alto-contraste-link) !important;
+    color: var(--alto-contraste-fundo) !important;
+    border: none;
+}
+
+/* Remove fundos de imagens decorativas */
+.alto-contraste #tropicalia,
+.alto-contraste .fundo-galeria,
+.alto-contraste #contato {
+    background: none !important;
+}
+
+/* Bordas nas imagens para visibilidade */
+.alto-contraste img {
+    border: 2px solid var(--alto-contraste-texto);
+}
+
+/* Campos de formulário com fundo escuro também */
+.alto-contraste .form-control {
+    background-color: var(--alto-contraste-fundo) !important;
+    color: var(--alto-contraste-texto) !important;
+    border: 1px solid var(--alto-contraste-texto);
+}
