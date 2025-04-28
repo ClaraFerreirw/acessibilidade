@@ -234,11 +234,6 @@ h2 {
     background: none !important;
 }
 
-/* Bordas nas imagens para visibilidade */
-.alto-contraste img {
-    border: 2px solid var(--alto-contraste-texto);
-}
-
 /* Imagens de fundo e conteúdo */
 .alto-contraste .form-control {
     background-color: var(--alto-contraste-fundo) !important;
