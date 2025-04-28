@@ -27,7 +27,7 @@ section {
 
 
 .nav-link {
-    color: #a987d6;
+    color: #7f43ce;
     font-weight: 600;
 }
 
@@ -63,7 +63,7 @@ section {
 
 
 .botao-inicio {
-    background-color: #ac47ff; /* Altere a cor de fundo para o que desejar (exemplo: tom de vermelho) */
+    background-color: #7f43ce; /* Altere a cor de fundo para o que desejar (exemplo: tom de vermelho) */
     color: #ffffff; /* Altere a cor do texto para branco (ou qualquer cor que preferir) */
     border-radius: 30px;
     border: none;
@@ -131,7 +131,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #a987d6;
+    background-color: #7f43ce;
     border: none;
     font-weight: bold;
 }
