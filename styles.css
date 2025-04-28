@@ -31,6 +31,11 @@ section {
     font-weight: 600;
 }
 
+.fundo-roxo {
+    background-color: #7f43ce; /* Cor de fundo roxa */
+    padding: 20px; /* Adiciona espaçamento ao redor do texto */
+  }  
+
 .inicio-fundo {
     /* aula 3 */
     background-image: url('img/OlivaRO2150524_(63)_(53727618945).jpg');
