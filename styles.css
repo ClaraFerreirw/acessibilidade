@@ -3,7 +3,7 @@
 
 /* Cor do contraste */
 :root {
-    --roxo-claro: #c485e9;
+    --roxo-claro: #7f43ce;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #471754;
@@ -27,7 +27,7 @@ section {
 
 
 .nav-link {
-    color: #7f43ce;
+    color: #a987d6;
     font-weight: 600;
 }
 
