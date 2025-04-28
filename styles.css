@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
+/* Cor do contraste */
 :root {
     --roxo-claro: #7f43ce;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #471754;
- }
+}
 
 body {
     font-size: 1rem;
@@ -116,6 +117,7 @@ h2 {
 
 }
 
+
 .formulario {
     background-color: #ffffff;
     padding: 2rem;
@@ -160,7 +162,7 @@ h2 {
     display: none;
 }
 
-/* ALTO CONTRASTE */
+/* Estilos para o alto contraste */
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario {
@@ -236,9 +238,23 @@ h2 {
     border: 2px solid var(--alto-contraste-texto);
 }
 
-/* Campos de formulário com fundo escuro também */
+/* Imagens de fundo e conteúdo */
 .alto-contraste .form-control {
     background-color: var(--alto-contraste-fundo) !important;
     color: var(--alto-contraste-texto) !important;
     border: 1px solid var(--alto-contraste-texto);
+}
+
+/* Fontes e Títulos */
+.alto-contraste h1,
+.alto-contraste h2,
+.alto-contraste h3,
+.alto-contraste p,
+.alto-contraste a,
+.alto-contraste span,
+.alto-contraste li,
+.alto-contraste label,
+.alto-contraste input,
+.alto-contraste textarea {
+    color: var(--alto-contraste-texto) !important;
 }
